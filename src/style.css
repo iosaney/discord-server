@@ -1,0 +1,277 @@
+/*font-family: 'Nunito', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+:root {
+  --background: #1a1f2a;
+  --main-color: #fbfbfd;
+  --sec-color: #86868b;
+  --og-background: #0d111a;
+}
+
+body {
+  background-color: var(--og-background) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  color: var(--main-color);
+}
+h1 {
+  font-size: 72px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h6 {
+  font-size: 18px;
+  color: var(--main-color);
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+  line-height: 30px;
+  font-size: 16px;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+hr {
+  border: none;
+  border-top: 2px dashed #67d5d2;
+  margin: 10px 0;
+  opacity: 75%;
+}
+
+ol {
+  list-style: none;
+  padding: 0px;
+}
+
+li {
+  padding: 0;
+}
+
+.brandName {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #fff;
+}
+h6.contactTitles {
+  margin: 20px 0;
+  color: var(--sec-color);
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+}
+
+.header h1,
+h5 {
+  color: white;
+}
+
+h4.appeal-description {
+  margin: 20px auto;
+  font-weight: 500;
+  font-size: 21px;
+  text-align: center;
+  max-width: 800px;
+  display: block;
+}
+
+.form-control {
+  border-radius: 2px;
+}
+
+.banAppealFormTitle {
+  color: var(--main-color);
+  font-weight: 600;
+}
+
+.appealForm {
+  margin: 80px auto;
+  max-width: 800px;
+  display: block;
+}
+
+.submitButton{
+  padding:15px 20px;
+  margin:10px;
+  color: var(--main-color);
+  font-weight: 600;
+  background: none;
+  border:solid white 2px;
+  border-radius: 4px;
+}
+
+.submitButton:hover{
+  background:var(--main-color);
+  color:var(--og-background);
+  transition: all 200ms ease-in-out;
+}
+
+.trackButton{
+  padding:15px 20px;
+  margin:10px;
+  color: var(--main-color);
+  font-weight: 600;
+  background: none;
+  border:solid white 2px;
+  border-radius: 4px;
+}
+.copyright {
+  font-family: "Roboto", sans-serif;
+  color: var(--sec-color);
+  font-size: 28px;
+}
+
+.hero {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url("/images/bg.png") no-repeat center center / 100% 100%;
+  margin-bottom: 70px;
+}
+
+.hero h1 {
+  text-align: center;
+  font-size: 72px;
+}
+.hero h5 {
+  text-align: center;
+  font-size: 24px;
+  line-height: 35px;
+}
+
+.socialMediaLinks {
+  color: var(--main-color);
+}
+
+.bodySection {
+  display: block;
+  margin: 100px auto;
+}
+
+#active-link {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.nav-link {
+  color: #e1e1e1;
+  font-family: "Nunito", sans-serif;
+  line-height: 30px;
+  font-size: 16px;
+  margin: 10px;
+  font-weight: 600;
+}
+
+.bodySection img {
+  padding: 0 6px;
+  border-radius: 12px;
+}
+
+.footerSection {
+  background-color: var(--background);
+  flex: 1;
+  text-align: center;
+}
+
+.footerSection p {
+  font-size: 12px;
+}
+
+.footerSection .row {
+  display: flex;
+  align-content: center;
+}
+
+.authorNote {
+  color: #000;
+}
+
+nav .container-fluid {
+  padding: 20px 0;
+}
+
+nav{
+  background: var(--background) !important;
+}
+@media (max-width: 800px) {
+  h1 {
+    margin: 0px 0px;
+    font-size: 28px;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+  h3 {
+    margin-bottom: 28px;
+    line-height: 30px;
+  }
+
+  h6 {
+    font-size: 16px;
+  }
+
+  p {
+    line-height: 1.7;
+    font-size: 16px;
+  }
+
+  .navBar {
+    padding: 7px !important ;
+  }
+  .hero h1 {
+    margin-top: 10px;
+    font-size: 32px;
+    line-height: 1.5;
+    text-align: left;
+  }
+
+  .hero h5 {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left;
+  }
+
+  h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .headers {
+    padding: 10px;
+  }
+  .bodySection {
+    display: block;
+    margin: 0 auto;
+    padding: 0 35px 0 35px;
+    margin: 50px 0;
+  }
+  .hero {
+    margin-bottom: 30px;
+  }
+  .logo {
+    width: 100px;
+    height: auto;
+  }
+}
