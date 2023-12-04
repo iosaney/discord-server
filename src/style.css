@@ -21,7 +21,7 @@ h5 {
   color: var(--main-color);
 }
 h1 {
-  font-size: 72px;
+  font-size: 62px;
   text-align: center;
 }
 
@@ -145,20 +145,32 @@ h4.appeal-description {
       rgba(0, 0, 0, 0.5) 0%,
       rgba(0, 0, 0, 0.2) 100%
     ),
-    url("/images/bg.png") no-repeat center center / 100% 100%;
+    url("/src/hero.png") no-repeat center center / 100% 120%;
   margin-bottom: 70px;
 }
 
 .hero h1 {
   text-align: center;
-  font-size: 72px;
+  font-size: 62;
 }
-.hero h5 {
+.hero h3 {
   text-align: center;
   font-size: 24px;
   line-height: 35px;
 }
 
+.homeButton{
+  
+  padding:30px 45px;
+  margin: 0px auto;
+  font-size: 21px;
+  background: #1E2758;
+  color: var(--main-color);
+  text-decoration: none;
+  font-weight: 600;
+  border:solid white 2px;
+  border-radius: 4px;
+}
 .socialMediaLinks {
   color: var(--main-color);
 }
