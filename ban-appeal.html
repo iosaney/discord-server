@@ -81,13 +81,15 @@
     </div>
 
     <div class="container appealForm">
-      <form target_="blank" action="htps://formsubmit.co/tinkerbell.sana@gmail.com" method="POST">
+      <form  netlify>
         <div class="form-group">
           <label for="discordID" class="banAppealFormTitle mb-2"
             >What's your Discord ID?</label
           >
           <input
             type="text"
+            name="discordID"
+            required
             class="form-control mb-4"
             id="discordID"
             placeholder="@birdman310"
@@ -96,11 +98,12 @@
 
         <div class="form-group">
           <label
-            for="exampleFormControlTextarea1"
             class="banAppealFormTitle mb-2"
             >Why do you think you were banned?</label
           >
           <textarea
+          placeholder="doing ARG"
+            name="reasonToBeBanned"
             class="form-control mb-4"
             id="exampleFormControlTextarea1"
             rows="3"
@@ -114,6 +117,8 @@
             >Why should your ban be lifted?</label
           >
           <textarea
+          placeholder="cuz im 2 fab"
+            name="reasonToBeUnbanned"
             class="form-control mb-4"
             id="exampleFormControlTextarea1"
             rows="3"
