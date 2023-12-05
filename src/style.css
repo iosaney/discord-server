@@ -84,7 +84,7 @@ h5 {
   color: white;
 }
 
-h4.appeal-description {
+h4.appeal-description, h4 {
   margin: 20px auto;
   font-weight: 500;
   font-family: "Nunito", sans-serif;
