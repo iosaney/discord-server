@@ -35,6 +35,9 @@ h3 {
   text-align: center;
 }
 
+h4 {
+  margin: 50px;
+}
 h6 {
   font-size: 18px;
   color: var(--main-color);
@@ -44,7 +47,7 @@ p {
   font-family: "Nunito", sans-serif;
   line-height: 30px;
   font-size: 16px;
-  color: var(--main-color)
+  color: var(--main-color);
 }
 
 ul {
@@ -68,8 +71,8 @@ li {
   padding: 0;
 }
 
-.header h1{
-  margin:20px;
+.header h1 {
+  margin: 20px;
   color: var(--main-color);
 }
 
@@ -87,13 +90,12 @@ h6.contactTitles {
   font-family: "Nunito", sans-serif;
 }
 
-
-.faqQAndA{
+.faqQAndA {
   margin-bottom: 30px;
   text-align: left;
 }
 
-.faqQAndA p{
+.faqQAndA p {
   line-height: 50px;
 }
 
@@ -125,39 +127,39 @@ h4.appeal-description {
   display: block;
 }
 
-.submitButton{
-  padding:15px 35px;
-  margin:10px;
+.submitButton {
+  padding: 15px 35px;
+  margin: 10px;
   font-size: 20px;
   color: var(--main-color);
   font-weight: 600;
   background: none;
-  border:solid white 2px;
+  border: solid white 2px;
   border-radius: 4px;
 }
 
-.submitButton:hover{
-  background:var(--main-color);
-  color:var(--og-background);
+.submitButton:hover {
+  background: var(--main-color);
+  color: var(--og-background);
   transition: all 250ms ease-in-out;
 }
 
-.trackButton{
-  padding:15px 35px;
-  margin:10px;
-  
+.trackButton {
+  padding: 15px 35px;
+  margin: 10px;
+
   font-size: 20px;
   color: var(--main-color);
   font-weight: 600;
-  background: #1E2758;
-  border:solid white 2px;
+  background: #1e2758;
+  border: solid white 2px;
   text-decoration: none;
   border-radius: 4px;
 }
-.trackButton:hover{
-  text-decoration:underline ;
+.trackButton:hover {
+  text-decoration: underline;
 }
-.trackDescription{
+.trackDescription {
   color: aliceblue;
   font-size: 18px;
 }
@@ -187,18 +189,18 @@ h4.appeal-description {
   line-height: 35px;
 }
 
-.homeButton{
-  
-  padding:30px 45px;
+.homeButton {
+  padding: 30px 45px;
   margin: 0px auto;
   font-size: 21px;
-  background: #1E2758;
+  background: #1e2758;
   color: var(--main-color);
   text-decoration: none;
   font-weight: 600;
-  border:solid white 2px;
+  border: solid white 2px;
   border-radius: 4px;
 }
+
 .socialMediaLinks {
   color: var(--main-color);
 }
@@ -222,8 +224,8 @@ h4.appeal-description {
   font-weight: 600;
 }
 
-.nav-link:hover{
-  color:white;
+.nav-link:hover {
+  color: white;
   font-weight: 800;
   text-decoration: underline;
 }
@@ -253,7 +255,7 @@ h4.appeal-description {
   text-decoration: none;
 }
 
-.open-source{
+.open-source {
   color: var(--sec-color);
   font-size: 10px;
 }
@@ -262,32 +264,46 @@ nav .container-fluid {
   padding: 20px 0;
 }
 
-nav{
+nav {
   background: var(--background) !important;
 }
 @media (max-width: 800px) {
   h1 {
-    margin: 0px 0px;
+    margin: 50px 0px 10px 0;
     font-size: 28px;
     line-height: 1.5;
     text-align: center;
   }
 
   h2 {
-    font-size: 26px;
+    font-size: 30px;
+    margin: 30px  0;
+    line-height: 30px;
   }
   h3 {
-    margin-bottom: 28px;
+    margin-bottom: 10px;
     line-height: 30px;
+    font-size: 21px;
+    text-align: left;
   }
 
   h6 {
     font-size: 16px;
   }
+  h4 {
+    text-align: center;
+    margin: 0;
+    line-height: 3;
+    text-align: center;
+  }
 
-  p {
+  p, .faqQAndA p{
     line-height: 1.7;
     font-size: 16px;
+  }
+  
+  h4.appeal-description, .appeal-description{
+    margin: 0 70px;
   }
 
   .navBar {
@@ -306,24 +322,41 @@ nav{
     text-align: left;
   }
 
-  h3 {
-    font-size: 20px;
-    text-align: center;
+  .hero h3 {
+    font-size: 14px;
+    text-align: left;
+    margin: 0 30px;
+    line-height: 1.5;
+  }
+
+  .hero{
+    margin: 0px ;
   }
   .headers {
     padding: 10px;
   }
-  .bodySection {
+  .row {
     display: block;
     margin: 0 auto;
     padding: 0 35px 0 35px;
-    margin: 50px 0;
+    margin: 10px 0;
   }
-  .hero {
-    margin-bottom: 30px;
+  .bodySection {
+    margin-top: 0;
   }
+
   .logo {
     width: 100px;
     height: auto;
+  }
+
+.trackDescription{
+  margin-top:30px;
+    flex-wrap: wrap;
+  }
+  .homeButton {
+    padding: 20px 35px;
+    margin: 15px auto;
+    font-size: 18px;
   }
 }
