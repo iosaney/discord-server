@@ -338,7 +338,6 @@ nav {
   .row {
     display: block;
     margin: 0 auto;
-    padding: 0 35px 0 35px;
     margin: 10px 0;
   }
   .bodySection {
@@ -353,6 +352,11 @@ nav {
 .trackDescription{
   margin-top:30px;
     flex-wrap: wrap;
+    
+  }
+  .trackButton{
+    display: inline;
+    padding: 15px 20px;
   }
   .homeButton {
     padding: 20px 35px;
