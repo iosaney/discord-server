@@ -27,7 +27,8 @@ h1 {
 }
 
 h2 {
-  font-size: 64px;
+  font-size: 32px;
+  line-height: 2;
 }
 
 h3 {
@@ -96,9 +97,13 @@ h6.contactTitles {
 }
 
 .faqQAndA p {
-  line-height: 50px;
+  line-height: 30px;
+  font-size: 18px;
 }
-
+h3.questionSection{
+  text-align: left;
+  font-size: 21px;
+}
 h4.appeal-description {
   margin: 20px auto;
   font-weight: 500;
@@ -269,7 +274,7 @@ nav {
 }
 @media (max-width: 800px) {
   h1 {
-    margin: 50px 0px 10px 0;
+    margin: 30px;
     font-size: 28px;
     line-height: 1.5;
     text-align: center;
